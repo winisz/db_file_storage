@@ -1,7 +1,7 @@
 # django
-from django.core.servers.basehttp import FileWrapper
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.utils.translation import ugettext as _
+from wsgiref.util import FileWrapper
 # project
 from db_file_storage.storage import DatabaseFileStorage
 
